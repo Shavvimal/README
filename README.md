@@ -301,6 +301,8 @@ Or, in pure Markdown, but losing the image sizing and border:
 [![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](http://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE)
 ```
 
+[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/GEuM9rXtmkk&t/0.jpg)](http://www.youtube.com/watch?v=GEuM9rXtmkk&t)
+
 ## Using emoji
 
 GitHub supports emoji!
