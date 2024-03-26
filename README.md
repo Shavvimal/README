@@ -289,19 +289,27 @@ This line is only separated by a single newline, so it's a separate line in the 
 
 They can't be added directly but you can add an image with a link to the video like this:
 
-```no-highlight
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=YOUTUBE_VIDEO_ID_HERE
-" target="_blank"><img src="http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg"
-alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
+```html
+<a
+  href="http://www.youtube.com/watch?feature=player_embedded&v=YOUTUBE_VIDEO_ID_HERE
+"
+  target="_blank"
+  ><img
+    src="http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg"
+    alt="IMAGE ALT TEXT HERE"
+    width="240"
+    height="180"
+    border="10"
+/></a>
 ```
 
 Or, in pure Markdown, but losing the image sizing and border:
 
-```no-highlight
-[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](http://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE)
+```md
+[![Deploying a Distributed Ray Python Server with Kubernetes, EKS & KubeRay to serve our own LLM](https://img.youtube.com/vi/GEuM9rXtmkk/0.jpg)](https://www.youtube.com/watch?v=GEuM9rXtmkk)
 ```
 
-[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/GEuM9rXtmkk&t/0.jpg)](http://www.youtube.com/watch?v=GEuM9rXtmkk&t)
+[![Deploying a Distributed Ray Python Server with Kubernetes, EKS & KubeRay to serve our own LLM](https://img.youtube.com/vi/GEuM9rXtmkk/0.jpg)](https://www.youtube.com/watch?v=GEuM9rXtmkk)
 
 ## Using emoji
 
